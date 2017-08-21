@@ -1,0 +1,96 @@
+<routes>
+	<vType accel="3.0" decel="6.0" id="CarA" length="5.0" minGap="2.5" maxSpeed="50.0" sigma="0.5" color="1,1,1" />
+    <vType accel="2.0" decel="6.0" id="CarB" length="7.5" minGap="2.5" maxSpeed="50.0" sigma="0.5" />
+    <vType accel="1.0" decel="5.0" id="CarC" length="5.0" minGap="2.5" maxSpeed="40.0" sigma="0.5" />
+    <vType accel="1.0" decel="5.0" id="CarD" length="7.5" minGap="2.5" maxSpeed="30.0" sigma="0.5" />
+    <vType id="BusA" length="15" maxSpeed="30" accel="1.2" decel="2.5" sigma="0.1" speedDev="0.1" vClass="bus" />
+    <vType id="BusB" accel="2.2" decel="4.5" sigma="0" length="12" minGap="3" maxSpeed="70" color="1,1,0" guiShape="bus"/>
+    <vType id="TrailerA" accel="2.7" decel="4.5" sigma="0" length="17.5" minGap="3" maxSpeed="60" color="1,0,0" guiShape="truck/trailer"/>
+    <vType id="TruckA" accel="2.6" decel="4.5" sigma="0" length="10" minGap="3" maxSpeed="70" color="0,1,0" guiShape="truck"/>
+
+     <route id="route01" edges="Dwtnloop_E_0 Dwtnloop_E_1 Dwtnloop_S_3 Dwtnloop_W_4 Dwtnloop_N_1 Mound_N_0 Main_N_0 Rich_N_0 Town_N_0 State_N_0 Broad_N_0 Broad_N_1 Gay_N_0 Long_N_0 Spring_N_0 Spring_N_1 Chestnut_N_0 Nationwide_E_1 Nationwide_E_2 Nationwide_E_3 Nationwide_E_4 Nationwide_E_5 Naghten_E_0 Naghten_E_1 Naghten_E_2 Naghten_E_3 Naghten_E_4 Naghten_E_5 Naghten_E_6 Naghten_E_7 Naghten_N_0 Vernon_N_0 Vernon_N_1 Vernon_N_2 Grove_N_0 i670_N_0 JackGibbs_N_0 JackGibbs_N_1 JackGibbs_N_2 EduUnlimited_N_0 EduUnlimited_N_1 EduUnlimited_N_2 2nd_N_0 2nd_N_1 2nd_N_2 5th_N_0 5th_N_1 5th_N_2 5th_N_3 11th_N_0 11th_N_1 11th_N_2 11th_N_3 11th_N_4 11th_N_5 Windsor_N_0 Windsor_N_1 Windsor_N_2 Windsor_N_3 17th_N_0 17th_N_1 17th_N_2 20th_N_0 20th_N_1 20th_N_2 24th_N_0 24th_N_1 24th_N_2 Duxberry_N_0 Duxberry_N_1 Duxberry_N_2 Duxberry_N_3 Hudson_N_0 Hudson_N_1 Myrtle_N_0 Myrtle_N_1 Myrtle_N_2 Genessee_N_0 Genessee_N_1 Genessee_N_2 Westerville_N_0 Weber_N_0 Weber_N_1 Weber_N_2 Weber_N_3 Weber_N_4 Weber_N_5 OaklandPark_N_0 OaklandPark_N_1 OaklandPark_N_2 OaklandPark_N_3 OaklandPark_N_4 OaklandPark_N_5 Huy_N_0 Huy_N_1 Huy_N_2 Innis_N_0 Innis_N_1 Innis_N_2 Innis_N_3 Innis_N_4 Elmore_N_0 Elmore_N_1 Elmore_N_2 Cooke_N_0 Cooke_N_1 Ormond_N_0 Ormond_N_1 Ormond_N_2 Ormond_N_3 Ferris_N_0 Ferris_N_1 Ferris_N_2 Ferris_N_3 Morse_N_0 Morse_N_1 Morse_N_2 BrettonWoods_N_0 BrettonWoods_N_1 Wallcrest_N_0 Wallcrest_N_1 Wallcrest_N_2 Wallcrest_N_3 Wallcrest_N_4 Teakwood_N_0 Teakwood_N_1 Teakwood_N_2 Northland_N_0 Northland_N_1 Dublin_N_0 Dublin_N_1 Dublin_N_2 Fuji_N_0 Fuji_N_1 Fuji_N_2 Fuji_N_3 BlendonWoods_N_0 BlendonWoods_N_1 BlendonWoods_N_2 CorporateEx_N_0 CommunityPark_N_0 CommunityPark_N_1 i270_N_0 i270_N_1 i270_N_2 i270_N_3 HsptlLoop_E_0 HsptlLoop_E_1 HsptlLoop_E_2 HsptlLoop_E_3 HsptlLoop_E_4 HsptlLoop_E_5 HsptlLoop_E_6 HsptlLoop_N_1 HsptlLoop_N_2 HsptlLoop_N_3 HsptlLoop_W_18 HsptlLoop_W_17 HsptlLoop_N_5 HsptlLoop_W_15 HsptlLoop_W_14 HsptlLoop_W_13 HsptlLoop_W_12 HsptlLoop_W_11 HsptlLoop_W_10 HsptlLoop_W_9 HsptlLoop_W_8 HsptlLoop_N_7 340SCle_N_0 340SCle_N_1 Cooper_N_0 Cooper_N_1 Cooper_N_2 MainSt_N_0 MainSt_N_1 MainSt_N_2 Hanawalt_N_0 Hanawalt_N_1 Hanawalt_N_2 Hanawalt_N_3 SportsComplex_N_0 SportsComplex_N_1 CountyLine_N_0 CountyLine_N_1 CountyLine_N_2 CountyLine_N_3 Westar_N_0 Westar_N_1 Westar_N_2 Westar_N_3 Westar_N_4 Polaris_E_1 Polaris_E_2 Polaris_E_3 Polaris_E_4 Polaris_E_5 Polaris_E_6 PolarisLoop_N_0 PolarisLoop_N_1 PolarisLoop_N_2 PolarisLoop_E_0 PolarisLoop_E_1 PolarisLoop_E_2 PolarisLoop_E_3 PolarisLoop_S_11 PolarisLoop_S_10 PolarisLoop_S_9 PolarisLoop_S_8 PolarisLoop_S_7 PolarisLoop_S_6 PolarisLoop_S_5 PolarisLoop_S_4 Polaris_E_9"/>
+
+    <route id="busroute01" edges="Dwtnloop_E_0 Dwtnloop_E_1 Dwtnloop_S_3 Dwtnloop_W_4 Dwtnloop_N_1 Mound_N_0 Main_N_0 Rich_N_0 Town_N_0 State_N_0 Broad_N_0 Broad_N_1 Gay_N_0 Long_N_0 Spring_N_0 Spring_N_1 Chestnut_N_0 Nationwide_E_1 Nationwide_E_2 Nationwide_E_3 Nationwide_E_4 Nationwide_E_5 Naghten_E_0 Naghten_E_1 Naghten_E_2 Naghten_E_3 Naghten_E_4 Naghten_E_5 Naghten_E_6 Naghten_E_7 Naghten_N_0 Vernon_N_0 Vernon_N_1 Vernon_N_2 Grove_N_0 i670_N_0 JackGibbs_N_0 JackGibbs_N_1 JackGibbs_N_2 EduUnlimited_N_0 EduUnlimited_N_1 EduUnlimited_N_2 2nd_N_0 2nd_N_1 2nd_N_2 5th_N_0 5th_N_1 5th_N_2 5th_N_3 11th_N_0 11th_N_1 11th_N_2 11th_N_3 11th_N_4 11th_N_5 Windsor_N_0 Windsor_N_1 Windsor_N_2 Windsor_N_3 17th_N_0 17th_N_1 17th_N_2 20th_N_0 20th_N_1 20th_N_2 24th_N_0 24th_N_1 24th_N_2 Duxberry_N_0 Duxberry_N_1 Duxberry_N_2 Duxberry_N_3 Hudson_N_0 Hudson_N_1 Myrtle_N_0 Myrtle_N_1 Myrtle_N_2 Genessee_N_0 Genessee_N_1 Genessee_N_2 Westerville_N_0 Weber_N_0 Weber_N_1 Weber_N_2 Weber_N_3 Weber_N_4 Weber_N_5 OaklandPark_N_0 OaklandPark_N_1 OaklandPark_N_2 OaklandPark_N_3 OaklandPark_N_4 OaklandPark_N_5 Huy_N_0 Huy_N_1 Huy_N_2 Innis_N_0 Innis_N_1 Innis_N_2 Innis_N_3 Innis_N_4 Elmore_N_0 Elmore_N_1 Elmore_N_2 Cooke_N_0 Cooke_N_1 Ormond_N_0 Ormond_N_1 Ormond_N_2 Ormond_N_3 Ferris_N_0 Ferris_N_1 Ferris_N_2 Ferris_N_3 Morse_N_0 Morse_N_1 Morse_N_2 BrettonWoods_N_0 BrettonWoods_N_1 Wallcrest_N_0 Wallcrest_N_1 Wallcrest_N_2 Wallcrest_N_3 Wallcrest_N_4 Teakwood_N_0 Teakwood_N_1 Teakwood_N_2 Northland_N_0 Northland_N_1 Dublin_N_0 Dublin_N_1 Dublin_N_2 Fuji_N_0 Fuji_N_1 Fuji_N_2 Fuji_N_3 BlendonWoods_N_0 BlendonWoods_N_1 BlendonWoods_N_2 CorporateEx_N_0 CommunityPark_N_0 CommunityPark_N_1 i270_N_0 i270_N_1 i270_N_2 i270_N_3 HsptlLoop_E_0 HsptlLoop_E_1 HsptlLoop_E_2 HsptlLoop_E_3 HsptlLoop_E_4 HsptlLoop_E_5 HsptlLoop_E_6 HsptlLoop_N_1 HsptlLoop_N_2 HsptlLoop_N_3 HsptlLoop_W_18 HsptlLoop_W_17 HsptlLoop_N_5 HsptlLoop_W_15 HsptlLoop_W_14 HsptlLoop_W_13 HsptlLoop_W_12 HsptlLoop_W_11 HsptlLoop_W_10 HsptlLoop_W_9 HsptlLoop_W_8 HsptlLoop_N_7 340SCle_N_0 340SCle_N_1 Cooper_N_0 Cooper_N_1 Cooper_N_2 MainSt_N_0 MainSt_N_1 MainSt_N_2 Hanawalt_N_0 Hanawalt_N_1 Hanawalt_N_2 Hanawalt_N_3 SportsComplex_N_0 SportsComplex_N_1 CountyLine_N_0 CountyLine_N_1 CountyLine_N_2 CountyLine_N_3 Westar_N_0 Westar_N_1 Westar_N_2 Westar_N_3 Westar_N_4 Polaris_E_1 Polaris_E_2 Polaris_E_3 Polaris_E_4 Polaris_E_5 Polaris_E_6 PolarisLoop_N_0 PolarisLoop_N_1 PolarisLoop_N_2 PolarisLoop_E_0 PolarisLoop_E_1 PolarisLoop_E_2 PolarisLoop_E_3 PolarisLoop_S_11 PolarisLoop_S_10 PolarisLoop_S_9 PolarisLoop_S_8 PolarisLoop_S_7 PolarisLoop_S_6 PolarisLoop_S_5 PolarisLoop_S_4 Polaris_E_9">
+        <stop busStop="BusStop_1_N_Rich" duration="20"/>
+        <stop busStop="BusStop_2_N_Broad" duration="20"/>
+        <stop busStop="BusStop_3_N_Gay" duration="20"/>
+        <stop busStop="BusStop_4_N_Nationwide" duration="20"/>
+        <stop busStop="BusStop_5_N_Naghten" duration="20"/>
+        <stop busStop="BusStop_6_N_Vernon" duration="20"/>
+        <stop busStop="BusStop_7_N_Abbott" duration="20"/>
+        <stop busStop="BusStop_8_N_2nd" duration="20"/>
+        <stop busStop="BusStop_9_N_5th" duration="20"/>
+        <stop busStop="BusStop_10_N_11th" duration="20"/>
+        <stop busStop="BusStop_11_N_17th" duration="20"/>
+        <stop busStop="BusStop_12_N_25th" duration="20"/>
+        <stop busStop="BusStop_13_N_Hudson" duration="20"/>
+        <stop busStop="BusStop_14_N_Genessee" duration="20"/>
+        <stop busStop="BusStop_15_N_Weber" duration="20"/>
+        <stop busStop="BusStop_16_N_OaklandPark" duration="20"/>
+        <stop busStop="BusStop_17_N_Huy" duration="20"/>
+        <stop busStop="BusStop_18_N_Elmore" duration="20"/>
+        <stop busStop="BusStop_19_N_Pegg" duration="20"/>
+        <stop busStop="BusStop_20_N_MorseCreek" duration="20"/>
+        <stop busStop="BusStop_21_N_Morse" duration="20"/>
+        <stop busStop="BusStop_22_N_Wallcrest" duration="20"/>
+        <stop busStop="BusStop_23_N_BlendonWoods" duration="20"/>
+        <stop busStop="BusStop_24_N_CommunityPark" duration="20"/>
+        <stop busStop="BusStop_25_N_CopperShrock" duration="20"/>
+        <stop busStop="BusStop_26_N_StAnns" duration="20"/>
+        <stop busStop="BusStop_27_N_MainSt" duration="20"/>
+        <stop busStop="BusStop_28_N_Westar" duration="20"/>
+        <stop busStop="BusStop_29_N_PolarisClev" duration="20"/>
+        <stop busStop="BusStop_30_N_OhioHealth" duration="20"/>
+        <stop busStop="BusStop_31_N_Last" duration="20"/>
+    </route>
+
+    <route id="route02" edges="Polaris_W_9 Polaris_W_8 Polaris_W_7 Polaris_W_6 Polaris_W_5 Polaris_W_4 Polaris_W_3 Polaris_W_2 Polaris_W_1 Westar_S_4 Westar_S_3 Westar_S_2 Westar_S_1 Westar_S_0 CountyLine_S_3 CountyLine_S_2 CountyLine_S_1 CountyLine_S_0 SportsComplex_S_1 SportsComplex_S_0 Hanawalt_S_3 Hanawalt_S_2 Hanawalt_S_1 Hanawalt_S_0 MainSt_S_2 MainSt_S_1 MainSt_S_0 Cooper_S_2 Cooper_S_1 Cooper_S_0 340SCle_S_1 340SCle_S_0 HsptlLoop_S_7 HsptlLoop_E_8 HsptlLoop_E_9 HsptlLoop_E_10 HsptlLoop_E_11 HsptlLoop_E_12 HsptlLoop_E_13 HsptlLoop_E_14 HsptlLoop_E_15 HsptlLoop_S_5 HsptlLoop_E_17 HsptlLoop_E_18 HsptlLoop_S_3 HsptlLoop_S_2 HsptlLoop_S_1 HsptlLoop_W_6 HsptlLoop_W_5 HsptlLoop_W_4 HsptlLoop_W_3 HsptlLoop_W_2 HsptlLoop_W_1 HsptlLoop_W_0 i270_S_3 i270_S_2 i270_S_1 i270_S_0 CommunityPark_S_1 CommunityPark_S_0 CorporateEx_S_0 BlendonWoods_S_2 BlendonWoods_S_1 BlendonWoods_S_0 Fuji_S_3 Fuji_S_2 Fuji_S_1 Fuji_S_0 Dublin_S_2 Dublin_S_1 Dublin_S_0 Northland_S_1 Northland_S_0 Teakwood_S_2 Teakwood_S_1 Teakwood_S_0 Wallcrest_S_4 Wallcrest_S_3 Wallcrest_S_2 Wallcrest_S_1 Wallcrest_S_0 BrettonWoods_S_1 BrettonWoods_S_0 Morse_S_2 Morse_S_1 Morse_S_0 Ferris_S_3 Ferris_S_2 Ferris_S_1 Ferris_S_0 Ormond_S_3 Ormond_S_2 Ormond_S_1 Ormond_S_0 Cooke_S_1 Cooke_S_0 Elmore_S_2 Elmore_S_1 Elmore_S_0 Innis_S_4 Innis_S_3 Innis_S_2 Innis_S_1 Innis_S_0 Huy_S_2 Huy_S_1 Huy_S_0 OaklandPark_S_5 OaklandPark_S_4 OaklandPark_S_3 OaklandPark_S_2 OaklandPark_S_1 OaklandPark_S_0 Weber_S_5 Weber_S_4 Weber_S_3 Weber_S_2 Weber_S_1 Weber_S_0 Westerville_S_0 Genessee_S_2 Genessee_S_1 Genessee_S_0 Myrtle_S_2 Myrtle_S_1 Myrtle_S_0 Hudson_S_1 Hudson_S_0 Duxberry_S_3 Duxberry_S_2 Duxberry_S_1 Duxberry_S_0 24th_S_2 24th_S_1 24th_S_0 20th_S_2 20th_S_1 20th_S_0 17th_S_2 17th_S_1 17th_S_0 Windsor_S_3 Windsor_S_2 Windsor_S_1 Windsor_S_0 11th_S_5 11th_S_4 11th_S_3 11th_S_2 11th_S_1 11th_S_0 5th_S_3 5th_S_2 5th_S_1 5th_S_0 2nd_S_2 2nd_S_1 2nd_S_0 EduUnlimited_S_2 EduUnlimited_S_1 EduUnlimited_S_0 JackGibbs_S_2 JackGibbs_S_1 JackGibbs_S_0 i670_S_0 Grove_S_0 Vernon_S_2 Vernon_S_1 Vernon_S_0 Vernon_W_5 Vernon_W_4 Vernon_W_3 Vernon_W_2 Vernon_W_1 Vernon_W_0 Nationwide_W_6 Nationwide_W_5 Nationwide_W_4 Nationwide_W_3 Nationwide_W_2 Nationwide_W_1 Chestnut_S_0 Spring_S_1 Spring_S_0 Long_S_0 Gay_S_0 Broad_S_1 Broad_S_0 State_S_0 Town_S_0 Rich_S_0 Main_S_0 Mound_S_0 Dwtnloop_S_1 Dwtnloop_S_0"/>
+
+    <route id="busroute02" edges="Polaris_W_9 Polaris_W_8 Polaris_W_7 Polaris_W_6 Polaris_W_5 Polaris_W_4 Polaris_W_3 Polaris_W_2 Polaris_W_1 Westar_S_4 Westar_S_3 Westar_S_2 Westar_S_1 Westar_S_0 CountyLine_S_3 CountyLine_S_2 CountyLine_S_1 CountyLine_S_0 SportsComplex_S_1 SportsComplex_S_0 Hanawalt_S_3 Hanawalt_S_2 Hanawalt_S_1 Hanawalt_S_0 MainSt_S_2 MainSt_S_1 MainSt_S_0 Cooper_S_2 Cooper_S_1 Cooper_S_0 340SCle_S_1 340SCle_S_0 HsptlLoop_S_7 HsptlLoop_E_8 HsptlLoop_E_9 HsptlLoop_E_10 HsptlLoop_E_11 HsptlLoop_E_12 HsptlLoop_E_13 HsptlLoop_E_14 HsptlLoop_E_15 HsptlLoop_S_5 HsptlLoop_E_17 HsptlLoop_E_18 HsptlLoop_S_3 HsptlLoop_S_2 HsptlLoop_S_1 HsptlLoop_W_6 HsptlLoop_W_5 HsptlLoop_W_4 HsptlLoop_W_3 HsptlLoop_W_2 HsptlLoop_W_1 HsptlLoop_W_0 i270_S_3 i270_S_2 i270_S_1 i270_S_0 CommunityPark_S_1 CommunityPark_S_0 CorporateEx_S_0 BlendonWoods_S_2 BlendonWoods_S_1 BlendonWoods_S_0 Fuji_S_3 Fuji_S_2 Fuji_S_1 Fuji_S_0 Dublin_S_2 Dublin_S_1 Dublin_S_0 Northland_S_1 Northland_S_0 Teakwood_S_2 Teakwood_S_1 Teakwood_S_0 Wallcrest_S_4 Wallcrest_S_3 Wallcrest_S_2 Wallcrest_S_1 Wallcrest_S_0 BrettonWoods_S_1 BrettonWoods_S_0 Morse_S_2 Morse_S_1 Morse_S_0 Ferris_S_3 Ferris_S_2 Ferris_S_1 Ferris_S_0 Ormond_S_3 Ormond_S_2 Ormond_S_1 Ormond_S_0 Cooke_S_1 Cooke_S_0 Elmore_S_2 Elmore_S_1 Elmore_S_0 Innis_S_4 Innis_S_3 Innis_S_2 Innis_S_1 Innis_S_0 Huy_S_2 Huy_S_1 Huy_S_0 OaklandPark_S_5 OaklandPark_S_4 OaklandPark_S_3 OaklandPark_S_2 OaklandPark_S_1 OaklandPark_S_0 Weber_S_5 Weber_S_4 Weber_S_3 Weber_S_2 Weber_S_1 Weber_S_0 Westerville_S_0 Genessee_S_2 Genessee_S_1 Genessee_S_0 Myrtle_S_2 Myrtle_S_1 Myrtle_S_0 Hudson_S_1 Hudson_S_0 Duxberry_S_3 Duxberry_S_2 Duxberry_S_1 Duxberry_S_0 24th_S_2 24th_S_1 24th_S_0 20th_S_2 20th_S_1 20th_S_0 17th_S_2 17th_S_1 17th_S_0 Windsor_S_3 Windsor_S_2 Windsor_S_1 Windsor_S_0 11th_S_5 11th_S_4 11th_S_3 11th_S_2 11th_S_1 11th_S_0 5th_S_3 5th_S_2 5th_S_1 5th_S_0 2nd_S_2 2nd_S_1 2nd_S_0 EduUnlimited_S_2 EduUnlimited_S_1 EduUnlimited_S_0 JackGibbs_S_2 JackGibbs_S_1 JackGibbs_S_0 i670_S_0 Grove_S_0 Vernon_S_2 Vernon_S_1 Vernon_S_0 Vernon_W_5 Vernon_W_4 Vernon_W_3 Vernon_W_2 Vernon_W_1 Vernon_W_0 Nationwide_W_6 Nationwide_W_5 Nationwide_W_4 Nationwide_W_3 Nationwide_W_2 Nationwide_W_1 Chestnut_S_0 Spring_S_1 Spring_S_0 Long_S_0 Gay_S_0 Broad_S_1 Broad_S_0 State_S_0 Town_S_0 Rich_S_0 Main_S_0 Mound_S_0 Dwtnloop_S_1 Dwtnloop_S_0">
+        <stop busStop="BusStop_32_S_Polaris" duration="20"/>
+        <stop busStop="BusStop_31_S_PolarisAfrica" duration="20"/>
+        <stop busStop="BusStop_30_S_Main" duration="20"/>
+        <stop busStop="BusStop_29_S_StAnns" duration="20"/>
+        <stop busStop="BusStop_28_S_CooperSchrock" duration="20"/>
+        <stop busStop="BusStop_27_S_CommunityPark" duration="20"/>
+        <stop busStop="BusStop_26_S_LaurelWood" duration="20"/>
+        <stop busStop="BusStop_25_S_Northland" duration="20"/>
+        <stop busStop="BusStop_24_S_Wallcrest" duration="20"/>
+        <stop busStop="BusStop_23_S_Morse" duration="20"/>
+        <stop busStop="BusStop_22_S_Lehner" duration="20"/>
+        <stop busStop="BusStop_21_S_Cooke" duration="20"/>
+        <stop busStop="BusStop_20_S_Elmore" duration="20"/>
+        <stop busStop="BusStop_19_S_3401Clev" duration="20"/>
+        <stop busStop="BusStop_18_S_OaklandPark" duration="20"/>
+        <stop busStop="BusStop_17_S_Weber" duration="20"/>
+        <stop busStop="BusStop_16_S_Genessee" duration="20"/>
+        <stop busStop="BusStop_15_S_Hudson" duration="20"/>
+        <stop busStop="BusStop_14_S_24th" duration="20"/>
+        <stop busStop="BusStop_13_S_17th" duration="20"/>
+        <stop busStop="BusStop_12_S_11th" duration="20"/>
+        <stop busStop="BusStop_11_S_5th" duration="20"/>
+        <stop busStop="BusStop_10_S_Reynolds" duration="20"/>
+        <stop busStop="BusStop_9_S_Abbott" duration="20"/>
+        <stop busStop="BusStop_8_S_Vernon" duration="20"/>
+        <stop busStop="BusStop_7_S_TSR110Nationwide" duration="20"/>
+        <stop busStop="BusStop_6_S_Nationwide" duration="20"/>
+        <stop busStop="BusStop_5_S_Long" duration="20"/>
+        <stop busStop="BusStop_4_S_Broad" duration="20"/>
+        <stop busStop="BusStop_3_S_State" duration="20"/>
+        <stop busStop="BusStop_2_S_Town" duration="20"/>
+        <stop busStop="BusStop_1_S_Main" duration="20"/>
+    </route>
+
+    <vehicle id="0" type="TruckA" route="route01" depart="0" departPos="free"/>
+    <vehicle id="1" type="BusB" route="busroute01" depart="0" departPos="free"/>
+    <vehicle id="2" type="TruckA" route="route02" depart="0" departPos="free"/>
+    <vehicle id="3" type="BusB" route="busroute02" depart="0" departPos="free"/>
+
+    
+
+
+
+
+
+
+</routes>
