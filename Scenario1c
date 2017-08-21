@@ -1,4 +1,5 @@
-# Dwell time for each bus is calculated based on passengers OD matrix
+# Dwell time at each stop is different for all buses depending on their passenger OD table (Bus specific dwell time). 
+# Note: Buses that do not have passenger OD table will have 100 seconds of dwell time for all stops.
 # Load libraries
 import os
 import sys
