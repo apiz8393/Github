@@ -6,6 +6,10 @@ import pandas as pd
 from pandas import ExcelWriter
 from pandas import ExcelFile
 
+# Set the configuration file for sumo and simulation label
+config_file = "C:/Users/MohammadHafiz/Desktop/Cummins/cmax/cmax.sumocfg"
+label = "sim1"
+
 df = pd.read_excel('C:/Users/MohammadHafiz/Desktop/Cummins/OD.xlsx', sheetname='Sheet2')
 durationN1=(df['Stop1'])
 durationN2=(df['Stop2'])
@@ -38,7 +42,6 @@ durationN28=(df['Stop28'])
 durationN29=(df['Stop29'])
 durationN30=(df['Stop30'])
 
-
 if 'SUMO_HOME' in os.environ:
     tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
     sys.path.append(tools)
@@ -47,11 +50,6 @@ else:
 import traci
 
 from Vehicle import Vehicle
-
-# Set the configuration file for sumo and simulation label
-config_file = "C:/Users/MohammadHafiz/Desktop/Cummins/cmax/cmax.sumocfg"
-label = "sim1"
-
 
 # Start TraCI GUI
 traci.start(["sumo-gui", "-c", config_file, "--step-length", "1.0"], label=label)
@@ -94,7 +92,8 @@ stop28done = 0
 stop29done = 0
 stop30done = 0
 numOD = len(durationN1)     #number of OD table imported
-defaultTime = 100000        #default dwell time for extra buses
+defaultTime = 100000        #default dwell time for extra buses that does not have input OD matrix
+
 # Begin Simulation
 while traci.simulation.getMinExpectedNumber() > 0:
     sim_time = traci.simulation.getCurrentTime()
@@ -112,28 +111,17 @@ while traci.simulation.getMinExpectedNumber() > 0:
         flags.append(0)
         done.append(0)
     
-    # if newVehicle != 0 and newVehicle.getType() == "BusB":
-    #     print("Do something")
-
     # Add new car for every 10 seconds
     if sim_time % 10000 == 0:
         newVehicle = Vehicle(traci,type="CarA",routeID="route01")
         vehicles.append(newVehicle)
         print("CarA is added")
-    
-    # if newVehicle != 0 and newVehicle.getType() == "CarA":
-    #     print("Do something")
-
-    # Retrieve routeID and StopState
-    # print(vehicles[0].getRouteID())
-    # print(vehicles[0].getStopState())
 
     # Change stop durations for all northbound stops
     for x in range (y,len(bus)):        #to run simulation even bus left network
         if (bus[x].isStopped()) == True and flags[x] == 0 and done[x] == 0:
             flags[x] = 1
             countN[x] += 1
-
             print(flags)
             print(countN)
             print(done)
@@ -296,14 +284,6 @@ while traci.simulation.getMinExpectedNumber() > 0:
             
         if (bus[x].isStopped()) == False and flags[x] == 1:
         	flags[x] = 0
-
-    
-    # Print out the speed of the first vehicle added
-    # print(vehicles[0].getSpeed())
-
-    # Print out the speed of the sixth (0 is the first vehicle) vehicle added
-    # if len(vehicles) > 5:
-    #     print(vehicles[5].getSpeed())
     
     # Print steps and vehicle location
     print "step", step 
