@@ -1,3 +1,4 @@
+# Dwell time for each bus is calculated based on passengers OD matrix
 # Load libraries
 import os
 import sys
